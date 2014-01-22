@@ -7,7 +7,7 @@ public class TileFactory {
     public static Map<Type, Tile> tiles = new HashMap<Type, Tile>();
 
     public static Tile makeTile(Type tileType) {
-        Tile tile = null;
+        Tile tile;
         switch (tileType) {
             case CERAMIC:
                 tile = tiles.get(Type.CERAMIC);
@@ -23,6 +23,8 @@ public class TileFactory {
                     tiles.put(Type.STONE, tile);
                 }
                 break;
+            default:
+                throw new IllegalArgumentException("Unknown tile type!");
         }
         return tile;
     }
