@@ -1,4 +1,4 @@
-package com.cegeka.bridge;
+package com.cegeka.bridge.manuscript;
 
 import java.util.ArrayList;
 import java.util.HashMap;

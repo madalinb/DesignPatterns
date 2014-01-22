@@ -1,4 +1,4 @@
-package com.cegeka.bridge;
+package com.cegeka.bridge.manuscript;
 
 public class TermPaper extends Manuscript {
 

@@ -1,4 +1,4 @@
-package com.cegeka.bridge;
+package com.cegeka.bridge.manuscript;
 
 public abstract class Manuscript {
 	protected IFormatter formatter;
