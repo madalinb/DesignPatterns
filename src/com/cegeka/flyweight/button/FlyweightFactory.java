@@ -28,7 +28,7 @@ public class FlyweightFactory {
 
     public static void report() {
         System.out.print("new Buttons - " + ht.size()
-                + ", shared Buttons - " + sharedButtons + ", ");
+                + "\n shared Buttons - " + sharedButtons + ":\n ");
         for (java.util.Iterator it = ht.keySet().iterator(); it.hasNext(); )
             System.out.print(it.next() + " ");
         System.out.println();
