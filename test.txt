@@ -1,0 +1,1 @@
+This phrase will be converted in lower case!
